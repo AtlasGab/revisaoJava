@@ -18,13 +18,13 @@ public class q5 {
     System.out.println("Qualquer número real:");
     double real = ler.nextDouble();
 
-    // int a = 2*int1 * int2/2; ou simplismente um vezes o outro
+    // (2*int1) * (int2/2); ou simplismente um vezes o outro, simplificando matematicamente
     int a = int1 * int2;
     double b = (double) int1*3 + real;
     double c = real * real * real; 
     System.out.println("O produto do dobro do primeiro com metade do segundo: " + a);
-    System.out.println("A soma do triplo do primeiro com o terceiro:" + b);
-    System.out.println("A soma do triplo do primeiro com o terceiro:" + c);
+    System.out.println("A soma do triplo do primeiro com o terceiro: " + b);
+    System.out.println("O terceiro elevado ao cubo: " + c);
 
     ler.close();
     }

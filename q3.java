@@ -14,7 +14,7 @@ public class q3 {
         double horas = ler.nextDouble();
 
         double salario = valor * horas;
-        System.out.println("Salário total no mês: " + salario);
+        System.out.println("Salário total no mês: R$" + salario);
 
         ler.close();
 
