@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class q8 {
+public class q08 {
     public static void main(String [] args){
         Scanner ler = new Scanner(System.in);
 
@@ -33,3 +33,4 @@ public class q8 {
         System.out.println("Salário Líquido: R$" + salarioLiquido);
     }
 }
+
