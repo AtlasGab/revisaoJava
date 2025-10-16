@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class q6 {
+public class q06 {
     public static void main(String [] args){
         Scanner ler = new Scanner(System.in);
 
@@ -18,3 +18,4 @@ public class q6 {
 
     }
 }
+
