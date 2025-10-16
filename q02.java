@@ -1,7 +1,7 @@
 // 2. Faça um programa que peça o raio de um círculo, calcule e mostre sua área.
 import java.util.Scanner;
 
-public class q2 {
+public class q02 {
     public static void main(String [] args){
         Scanner ler=new Scanner(System.in);
         
@@ -17,3 +17,4 @@ public class q2 {
         
     }
 }
+
