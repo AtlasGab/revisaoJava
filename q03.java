@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class q3 {
+public class q03 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 
@@ -20,3 +20,4 @@ public class q3 {
 
     }
 }
+
