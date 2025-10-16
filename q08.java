@@ -33,4 +33,3 @@ public class q08 {
         System.out.println("Salário Líquido: R$" + salarioLiquido);
     }
 }
-

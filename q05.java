@@ -29,4 +29,3 @@ public class q05 {
     ler.close();
     }
 }
-

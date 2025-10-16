@@ -24,5 +24,4 @@ public class q01{
 
         ler.close();
     }
-
 }

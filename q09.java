@@ -16,7 +16,7 @@ public class q09 {
         ler.close();
 
         double latas = (area / 3) / 18;
-
+        
         if((latas - (int)latas) != 0 ){
             latas = (int)latas + 1;
         }
@@ -31,4 +31,3 @@ public class q09 {
 
     }
 }
-
