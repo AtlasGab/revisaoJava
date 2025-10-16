@@ -22,13 +22,28 @@ public class q17 {
         Scanner ler = new Scanner(System.in);
 
         int codigo = 1;
+        int quantidade = 0;
         double valorTotal = 0;
 
         while (codigo != 0) {
-            System.out.print("Código:");
+            System.out.print("Código: ");
             codigo = ler.nextInt();
-            System.out.println();
-            valorTotal += lerValor(codigo);
+
+            if(codigo == 0){
+                break;
+            }
+
+            System.out.print("Quantidade: ");
+            quantidade = ler.nextInt();
+
+            if(codigo == 100 || codigo == 101 || codigo == 102 || codigo == 103 || codigo == 104 || codigo == 105){
+                valorTotal += lerValor(codigo) * quantidade;
+            }else{
+                System.out.println("Código inválido");
+            }
+            System.out.println("===================");
+
+            
         }
 
         ler.close();
