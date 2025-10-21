@@ -33,7 +33,9 @@ public class q13 {
         ler.close();
 
         int totalRespostas = 0;
-        for (int r : respostas) totalRespostas += r;
+        for (int i = 0; i < respostas.length; i++) {
+            totalRespostas += respostas[i];
+        }
 
         System.out.print("Situação no crime: ");
         switch (totalRespostas) {
